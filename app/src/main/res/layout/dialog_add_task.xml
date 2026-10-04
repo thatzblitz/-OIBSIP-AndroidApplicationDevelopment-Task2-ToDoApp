@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@drawable/bg_rounded_dialog">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Task Details"
+        android:fontFamily="serif"
+        android:textSize="24sp"
+        android:textColor="?attr/android:textColorPrimary"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Task Name Input -->
+    <EditText
+        android:id="@+id/editTaskName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:textSize="16sp"
+        android:hint="Task Name"
+        android:inputType="textCapSentences"
+        android:textColor="?attr/android:textColorPrimary"
+        android:textColorHint="@color/text_secondary_dark"
+        android:backgroundTint="?attr/colorPrimary"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Date and Time Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <Button
+            android:id="@+id/btnDate"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:layout_marginEnd="8dp"
+            android:textColor="?attr/android:textColorPrimary"
+            app:strokeColor="?attr/colorPrimary"
+            app:cornerRadius="16dp"/>
+
+        <Button
+            android:id="@+id/btnTime"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:layout_marginStart="8dp"
+            android:textColor="?attr/android:textColorPrimary"
+            app:strokeColor="?attr/colorPrimary"
+            app:cornerRadius="16dp"/>
+    </LinearLayout>
+
+    <!-- Optional Description Input -->
+    <EditText
+        android:id="@+id/editDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:textSize="16sp"
+        android:hint="Description (Optional)"
+        android:inputType="textMultiLine"
+        android:textColor="?attr/android:textColorPrimary"
+        android:textColorHint="@color/text_secondary_dark"
+        android:backgroundTint="?attr/colorPrimary"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Bottom Action Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnDelete"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:layout_marginEnd="8dp"
+            android:textColor="#FF453A" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:textColor="@color/pure_black"
+            app:backgroundTint="?attr/colorPrimary"
+            app:cornerRadius="16dp"/>
+    </LinearLayout>
+</LinearLayout>

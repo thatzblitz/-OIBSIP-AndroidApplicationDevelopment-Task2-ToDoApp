@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Bold Red when ON -->
+    <item android:color="#FF453A" android:state_checked="true" />
+    <!-- Dark Grey when OFF -->
+    <item android:color="#424242" android:state_checked="false" />
+</selector>

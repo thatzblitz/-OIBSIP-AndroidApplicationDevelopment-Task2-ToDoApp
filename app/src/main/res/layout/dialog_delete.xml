@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_rounded_dialog"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- Optional Title to match your aesthetic -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Delete"
+        android:textColor="?attr/android:textColorPrimary"
+        android:textSize="24sp" />
+
+    <!-- Top Option: Delete Completed (Subtle Grey) -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnDeleteCompleted"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="completed tasks"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#424242"
+        app:cornerRadius="16dp" />
+
+    <!-- Bottom Option: Delete All (Destructive Red) -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnDeleteAll"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="all tasks"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#FF453A"
+        app:cornerRadius="16dp" />
+
+</LinearLayout>
