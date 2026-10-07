@@ -13,7 +13,7 @@ Tasks is a lightweight, clean Android productivity tool designed for efficient d
 ## Download the app from here
 
 Get the pre-compiled APK directly on your device:
-**[Tasks.apk](https://github.com/thatzblitz/-OIBSIP-AndroidApplicationDevelopment-Task2-ToDoApp/releases/download/apk/Tasks.apk)**
+**[Tasks.apk](https://github.com/thatzblitz/-OIBSIP-AndroidApplicationDevelopment-Task2-ToDoApp/releases/download/apk/Tasks.v1.apk)**
 
 ---
 
