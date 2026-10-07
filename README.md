@@ -54,3 +54,16 @@ Get the pre-compiled APK directly on your device:
    ```bash
    git clone [https://github.com/thatzblitz/-OIBSIP-AndroidApplicationDevelopment-Task2-ToDoApp.git](https://github.com/thatzblitz/-OIBSIP-AndroidApplicationDevelopment-Task2-ToDoApp.git)
    cd -OIBSIP-AndroidApplicationDevelopment-Task2-ToDoApp
+
+---
+
+## Screenhots
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e07218b9-a4d3-4257-a8a5-9e08da58bbd4" width="260" />
+  <img src="https://github.com/user-attachments/assets/dbfe14ba-22de-4cdb-b92f-0dcbd8164a42" width="260" />
+  <img src="https://github.com/user-attachments/assets/58c7f344-4668-4168-bed9-f1f06e446c21" width="260" />
+  <img src="https://github.com/user-attachments/assets/581ab07d-e427-4995-811e-ab0b34eb8bfe" width="260" />
+</p>
+
+---
